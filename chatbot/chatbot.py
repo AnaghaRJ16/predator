@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 
 # Weather API Key (Replace with your own API Key)
-WEATHER_API_KEY = os.getenv("676b7afdeb994e90407ee7b5d4b91472")
+WEATHER_API_KEY = "676b7afdeb994e90407ee7b5d4b91472"
 WEATHER_API_URL = "http://api.openweathermap.org/data/2.5/forecast"
 
 # Example project data (mock data for simplicity)
@@ -113,4 +113,4 @@ async def chatbot(request: Request):
 # Run the application locally
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="localhost", port=3000)
