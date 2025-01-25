@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-pandas
-numpy
-matplotlib
-plotly
-requests
-python-dotenv
-openai
