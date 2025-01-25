@@ -2,7 +2,7 @@ construction-planner/
 │
 ├── src/                     # Source code
 │   ├── api/
-│   │   ├── accuweather.py   # Script to fetch weather data from AccuWeather
+│   │   ├── weather.py   # Script to fetch weather data from AccuWeather
 │   │   ├── gpt_utils.py     # GPT-based AI functions
 │   │   └── data_handler.py  # Handles data fetching, cleaning, and preprocessing
 │   │
@@ -24,7 +24,7 @@ construction-planner/
 │   └── risk_profiles.json   # Risk profiles of various construction zones
 │
 ├── tests/                   # Test scripts
-│   ├── test_accuweather.py  # Unit tests for weather API integration
+│   ├── test_weather.py  # Unit tests for weather API integration
 │   ├── test_budget_model.py # Unit tests for budget analysis
 │   └── test_visualization.py # Tests for graphs and UI
 │
