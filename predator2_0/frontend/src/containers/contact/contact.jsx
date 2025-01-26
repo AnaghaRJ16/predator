@@ -1,8 +1,8 @@
 import React from "react";
-import "./footer.css";
-import logo from "../../assets/logo.png"; // Updated to use .png logo
+import "./contanct.css";
+import logo from "../../assets/logo.png"; 
 
-const Footer = () => {
+const Contact = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
-          <img src={logo} alt="GPT-3 logo" /> {/* Updated for .png file */}
+          <img src={logo} alt="GPT-3 logo" /> 
           <p>PREDATOR 2.0 , All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
@@ -46,4 +46,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;
