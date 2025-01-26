@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./Navbar.css";
-import logo from "../../assets/logo.png"; // Updated to use logo.png
+import logo from "../../assets/logo.png"; 
 
 const Menu = () => (
   <>
@@ -15,10 +15,10 @@ const Menu = () => (
       <a href="#chatbot">ChatBot</a>
     </p>
     <p>
-      <a href="#aboutus">About Us</a>
+      <a href="#about">About Us</a>
     </p>
     <p>
-      <a href="#contactus">Contact Us</a>
+      <a href="#contact">Contact Us</a>
     </p>
   </>
 );
