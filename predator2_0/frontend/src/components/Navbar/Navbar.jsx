@@ -14,9 +14,7 @@ const Menu = () => (
     <p>
       <a href="#chatbot">ChatBot</a>
     </p>
-    <p>
-      <a href="#about">About Us</a>
-    </p>
+   
     <p>
       <a href="#contact">Contact Us</a>
     </p>

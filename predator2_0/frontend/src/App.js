@@ -3,7 +3,7 @@ import { Navbar } from './components';
 import { Home } from './containers';
 import { Weather } from './containers';
 import { Chatbot } from './containers';
-import { About } from './containers';
+
 import { Contact } from './containers';
 
 
@@ -18,7 +18,7 @@ const App = () => {
         <Home />
         <Weather />
         <Chatbot />
-        <About />
+        
         <Contact />
       </div>
       </div>
