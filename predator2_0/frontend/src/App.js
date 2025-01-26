@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 
-import { Footer } from "./containers"; 
   
 import { Navbar } from "./components";
 
@@ -14,7 +13,6 @@ const App = () => {
       </div>      
       
 
-      <Footer />
      
     </div>
   );
