@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./chatbot.css"; // Import the CSS file
+import "./Chatbot.css"; // Import the CSS file
 
-const chatbot = () => {
+const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
@@ -47,4 +47,4 @@ const chatbot = () => {
   );
 };
 
-export default chatbot;
+export default Chatbot;

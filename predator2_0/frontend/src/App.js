@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from './components'; 
 import { Home } from './containers';
 import { Weather } from './containers';
-import { ChatBot } from './containers';
+import { Chatbot } from './containers';
 import { About } from './containers';
 import { Contact } from './containers';
 
