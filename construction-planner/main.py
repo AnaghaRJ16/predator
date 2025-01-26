@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from src.visualization.dashboard import Dashboard
 import tkinter as tk
 import os
@@ -26,3 +27,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+from chatbot import app as chatbot_app
+
+if __name__ == "__main__":
+    chatbot_app.run(debug=True)
+>>>>>>> 748b049a15ec9d10a124b941eb3dbc182efdefbe
