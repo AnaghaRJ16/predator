@@ -11,40 +11,20 @@ const App = () => {
   return (
     <div>
       <nav>
-        <p>
-          <a href="#home">Home</a>
-        </p>
-        <p>
-          <a href="#weather">Weather Forecasting</a>
-        </p>
-        <p>
-          <a href="#chatbot">ChatBot</a>
-        </p>
-        <p>
-          <a href="#aboutus">About Us</a>
-        </p>
-        <p>
-          <a href="#contactus">Contact Us</a>
-        </p>
-      </nav>
+      <div className="App">
+      <div className="gradient__bg">
 
-      <div id="home">
-        <home />
-      </div>
-      <div id="weather">
-        <weather />
-      </div>
-      <div id="chatbot">
-        <chatBot />
-      </div>
-      <div id="about">
+        <Navbar />
+        <Home />
+        <Weather />
+        <Chatbot />
         <About />
-      </div>
-      <div id="contact">
         <Contact />
       </div>
+      </div>
+      </nav>
     </div>
   );
-};
+}
 
 export default App;
