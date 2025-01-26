@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import "./chatbot.css"; 
+import axios from 'axios';
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
-  const handleSend = () => {
+  const handleSend = async() => {
     if (!input.trim()) return;
+    const response = await axios.post('http://localhost:8000/api/admin/python', { input });
 
     const userMessage = { sender: "user", text: input };
-    const botMessage = { sender: "bot", text: "Let me think about that..." }; // Replace with AI response logic.
+    const botMessage = { sender: "bot", text: response.data.output}; // Replace with AI response logic.
 
     setMessages([...messages, userMessage, botMessage]);
     setInput("");

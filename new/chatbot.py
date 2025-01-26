@@ -3,7 +3,29 @@ from difflib import get_close_matches
 import requests  # Import requests for API calls
 import os
 from dotenv import load_dotenv
+import json
 
+# Embed the JSON data directly in the Python script
+knowledge_base = {
+    "questions": [
+        {
+            "question": "delhi",
+            "answer": ""
+        }
+    ]
+}
+
+def find_answer(question):
+    # Loop through the questions and return the answer if found
+    for entry in knowledge_base["questions"]:
+        if entry["question"].lower() == question.lower():
+            return entry["answer"]
+    return "Question not found in the knowledge base."
+
+# Example usage
+user_input = "delhi"
+response = find_answer(user_input)
+print(response)  # Output: "skip"
 # Load the .env file to fetch the API key
 load_dotenv()
 
@@ -55,7 +77,7 @@ def get_weather_with_advice(city: str) -> str:
 
 # Main chatbot function
 def chatbot():
-    knowledge_base = load_knowledge_base("knowledge_base.json")
+   # knowledge_base = load_knowledge_base("knowledge_base.json")
     
     while True:
         user_input = input("You: ").lower()

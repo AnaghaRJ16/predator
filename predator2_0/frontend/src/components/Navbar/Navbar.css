@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    background: linear-gradient(to right, black, rgb(255, 0, 0)) /* Added background */
+    background: linear-gradient(to right, rgb(244, 239, 239), rgb(255, 0, 0)) /* Added background */
 }
 
 .gpt3__navbar-links {
@@ -70,7 +70,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    background: linear-gradient(to right, black, rgb(255, 9, 9)); /* Added background */
+    background: linear-gradient(to right, rgb(255, 254, 254), rgb(255, 9, 9)); /* Added background */
 }
 
 .gpt3__navbar-links {

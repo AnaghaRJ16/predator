@@ -1,10 +1,7 @@
 import React from 'react';
-import { Navbar } from './components'; 
-import { Home } from './containers';
-import { Weather } from './containers';
-import { Chatbot } from './containers';
-
-import { Contact } from './containers';
+import Navbar from './components/Navbar/Navbar';
+import Home from './containers/home/home';
+import Chatbot from './containers/chatbot/chatbot';
 
 
 const App = () => {
@@ -16,10 +13,7 @@ const App = () => {
 
         <Navbar />
         <Home />
-        <Weather />
         <Chatbot />
-        
-        <Contact />
       </div>
       </div>
       </nav>
